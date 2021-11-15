@@ -1,4 +1,33 @@
-* {
-margin: 0;
+:root {
+    --Rubik-font: "Rubik", sans-serif;
+  }
+  .header {
+      position: fixed;
+      width: 100%;
+  }
+  .container {
+     height: 130px; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
 
-}
+  }
+  .logo {
+      padding-top: 10px;
+      size: 155px;
+  }
+ .menu {
+     width: 100%;
+     text-align: center;
+ }
+ .menu li {
+     display: inline-block;
+     font-family:'Rubik', sans-serif;
+     font-size: 25px;
+     padding-top; 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-bottom: 13px;
+ }
+ 
